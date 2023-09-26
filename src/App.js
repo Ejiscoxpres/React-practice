@@ -1,10 +1,14 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import './App.css';
 /*import Person from './components/person';*/
 
 
 const App =()  => {
 const [counter,setCounter] = useState(0);
+
+useEffect(() => {
+alert('please, refresh');
+})
 
   return (
     <div className="App">
