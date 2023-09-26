@@ -14,8 +14,13 @@ const App =()  => {
   return (
     <div className="App">
       {person ()}
+      {person ()}
+      {person ()}
+      {person ()}
+      {person ()}
       
-      <Person /> 
+      {/*<Person /> */}
+      
       
     </div>
   );
