@@ -17,9 +17,9 @@ const App =()  => {
       
       
       <Person name = {'Praise'} lastName = {'Emeka'} age ={500}/> 
-      <Person /> 
-      <Person /> 
-      <Person /> 
+      <Person name = {'Great'} lastName = {'Grace'} age ={501}/> 
+      <Person name = {'Precious'} lastName = {'Promise'} age ={502}/> 
+      <Person name = {'Ihechi'} lastName = {'Amaka'} age ={503}/> 
       
       
     </div>
