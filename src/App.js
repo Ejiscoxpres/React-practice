@@ -1,23 +1,22 @@
 import './App.css';
-const name = 'Praise';
+import Person from './components/person';
 
-
+const person = () => {
+  return(
+    <>
+    <h1>Name: Bamidele</h1>
+    <h2>Last Name: Adeleke</h2>
+    <h2>Age: 31</h2>
+    </>
+  )
+}
 const App =()  => {
   return (
     <div className="App">
-      <h1>Hello {7+7}!</h1>
-      {name ?(
-        <>
-        <h1>{name}</h1>
-        </>
-      ) :(
-        <>
-
-        <h1>Peace and LOVE</h1>
-        <h2>There is no space for hate.</h2>
-
-        </>
-      )}
+      {person ()}
+      
+      <Person /> 
+      
     </div>
   );
 }
