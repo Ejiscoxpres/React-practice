@@ -1,6 +1,6 @@
 import './App.css';
 const name = 'Rejoice'
-const isNameShowing = 'true'
+const isNameShowing = false;
 
 const App =()  => {
   return (
