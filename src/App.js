@@ -8,7 +8,7 @@ const [counter,setCounter] = useState(0);
 
 useEffect(() => {
 setCounter(100);
-});
+}, []);
 
   return (
     <div className="App">
