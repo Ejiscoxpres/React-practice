@@ -1,6 +1,6 @@
 import './App.css';
-const name = 'Rejoice'
-const isNameShowing = false;
+const name = null;
+
 
 const App =()  => {
   return (
@@ -10,8 +10,8 @@ const App =()  => {
         <>
         test
         </>
-      ):(
-        test
+      ) :(
+        <h1>test</h1>
       )}
     </div>
   );
