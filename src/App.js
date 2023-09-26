@@ -10,7 +10,7 @@ const [counter,setCounter] = useState(0);
     <div className="App">
      {/* {person ()}*/}
       
-      <button onClick={() => setCounter(-25)}>-</button>
+      <button onClick={() => setCounter((prevCount) => prevCount -1)}>-</button>
       <h1>{counter}</h1>
       <button>+</button>
       
