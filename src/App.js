@@ -11,7 +11,12 @@ const App =()  => {
         test
         </>
       ) :(
-        <h1>test</h1>
+        <>
+
+        <h1>Peace and LOVE</h1>
+        <h1>there is no space for hate.</h1>
+
+        </>
       )}
     </div>
   );
