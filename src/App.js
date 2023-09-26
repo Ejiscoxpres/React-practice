@@ -16,7 +16,7 @@ const App =()  => {
      {/* {person ()}*/}
       
       
-      <Person name = {'Praise'} /> 
+      <Person name = {'Praise'} lastName = {'Emeka'} age ={500}/> 
       <Person /> 
       <Person /> 
       <Person /> 
