@@ -1,5 +1,5 @@
 import './App.css';
-const name = null;
+const name = 'Praise';
 
 
 const App =()  => {
@@ -8,13 +8,13 @@ const App =()  => {
       <h1>Hello {7+7}!</h1>
       {name ?(
         <>
-        test
+        <h1>{name}</h1>
         </>
       ) :(
         <>
 
         <h1>Peace and LOVE</h1>
-        <h1>there is no space for hate.</h1>
+        <h2>There is no space for hate.</h2>
 
         </>
       )}
