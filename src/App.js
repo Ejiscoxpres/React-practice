@@ -4,7 +4,7 @@ import Person from './components/person';
 const person = () => {
   return(
     <>
-    <h1>Name: Bamidele</h1>
+    <h1>Name: bamidele</h1>
     <h2>Last Name: Adeleke</h2>
     <h2>Age: 31</h2>
     </>
@@ -13,13 +13,13 @@ const person = () => {
 const App =()  => {
   return (
     <div className="App">
-      {person ()}
-      {person ()}
-      {person ()}
-      {person ()}
-      {person ()}
+     {/* {person ()}*/}
       
-      {/*<Person /> */}
+      
+      <Person name = {'Praise'} /> 
+      <Person /> 
+      <Person /> 
+      <Person /> 
       
       
     </div>
