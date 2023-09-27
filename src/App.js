@@ -21,6 +21,8 @@ console.log(data.search);
             <div className='search'>
                 <input
                 placeholder='search for movies'
+                value='Abattoir'
+                onChange={() => {}}
                 />
             </div>
         </div>
