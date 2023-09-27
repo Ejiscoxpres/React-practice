@@ -18,6 +18,11 @@ console.log(data.search);
     return(
         <div className='app'>
             <h1>Mount Zion Movies</h1>
+            <div className='search'>
+                <input
+                placeholder='search for movies'
+                />
+            </div>
         </div>
     );
 
