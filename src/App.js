@@ -25,7 +25,7 @@ console.log(data.search);
                 onChange={() => {}}
                 />
                 <img
-                src='SearchIcon'
+                src={'SearchIcon'}
                 alt='search'
                 />
             </div>
