@@ -16,7 +16,9 @@ console.log(data.search);
 
     },[]);
     return(
-        <h1>App</h1>
+        <div className='app'>
+            <h1>Mount Zion Movies</h1>
+        </div>
     );
 
 }
