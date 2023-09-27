@@ -24,6 +24,10 @@ console.log(data.search);
                 value='Abattoir'
                 onChange={() => {}}
                 />
+                <img
+                src='SearchIcon'
+                alt='search'
+                />
             </div>
         </div>
     );
